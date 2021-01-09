@@ -6,36 +6,68 @@
     <title>Photo Gallery</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- LINK CSS FILE -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+  
+  <!--PLACE SEARCH BOX HERE -->
+  <form id="form" role="search">
+    <input type="search" id="query" name="q"
+     placeholder="Search..."
+     aria-label="Search through site content">
+    <button class="button">Search</button>
+  </form>
+  
   <div class="gallery"> <!--Holds the photos for the gallery. --> 
     
-      <!--Photo 1: Picture of Hay Bales --> 
-      <img src="photos/01.jpg" alt="Hay bales" width="350" height="300"> 
-      <!--Photo 2: Picture of Lake --> 
-      <img src="photos/02.jpg" alt="Lake" width="350" height="300"> 
-      <!--Photo 3: Picture of Canyon --> 
-      <img src="photos/03.jpg" alt="Canyon" width="350" height="300">
-      <!--Photo 4: Picture of Iceburg --> 
-      <img src="photos/04.jpg" alt="Iceburg" width="350" height="300">
-      <!--Photo 5: Picture of Desert --> 
-      <img src="photos/05.jpg" alt="Desert" width="350" height="300">
-      <!--Photo 6: Picture of Fall --> 
-      <img src="photos/06.jpg" alt="Fall" width="350" height="300">
-      <!--Photo 7: Picture of Plantation --> 
-      <img src="photos/07.jpg" alt="Plantation" width="350" height="300">
-      <!--Photo 8: Picture of Dunes --> 
-      <img src="photos/08.jpg" alt="Dunes" width="350" height="300">  
-      <!--Photo 9: Picture of Countryside Lane --> 
-      <img src="photos/09.jpg" alt="Countryside Lane" width="350" height="300"> 
-      <!--Photo 10: Picture of Sunset --> 
-      <img src="photos/10.jpg" alt="Sunset" width="350" height="300">
-      <!--Photo 11: Picture of Cave --> 
-      <img src="photos/11.jpg" alt="Cave" width="350" height="300">
-      <!--Photo 12: Picture of Bluebells --> 
-      <img src="photos/12.jpg" alt="Bluebells" width="350" height="300">
+    <!--Photo 1: Picture of Hay Bales --> 
+    <a href="photos/01.jpg" data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+      <img src="photos/thumbnails/01.jpg" class="gallery_img" alt="Hay bales"></a>
+      
+    <!--Photo 2: Picture of Lake --> 
+    <a href="photos/02.jpg" data-caption="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+      <img src="photos/thumbnails/02.jpg" class="gallery_img" alt="Lake"></a> 
+      
+    <!--Photo 3: Picture of Canyon -->
+    <a href="photos/03.jpg" data-caption="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+      <img src="photos/thumbnails/03.jpg" class="gallery_img" alt="Canyon"></a>
+      
+    <!--Photo 4: Picture of Iceburg -->
+    <a href="photos/04.jpg" data-caption="It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
+      <img src="photos/thumbnails/04.jpg" class="gallery_img" alt="Iceburg"></a>
+      
+    <!--Photo 5: Picture of Desert -->
+    <a href="photos/05.jpg" data-caption="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+      <img src="photos/thumbnails/05.jpg" class="gallery_img" alt="Desert"></a>
+      
+    <!--Photo 6: Picture of Fall -->
+    <a href="photos/06.jpg" data-caption="Fall is coming, I love when the leaves on the trees start to change color.">
+      <img src="photos/thumbnails/06.jpg" class="gallery_img" alt="Fall"></a>
+      
+    <!--Photo 7: Picture of Plantation -->
+    <a href="photos/07.jpg" data-caption="I drove past this plantation yesterday, everything is so green!">
+      <img src="photos/thumbnails/07.jpg" class="gallery_img" alt="Plantation"></a>
+      
+    <!--Photo 8: Picture of Dunes -->
+    <a href="photos/08.jpg" data-caption="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+      <img src="photos/thumbnails/08.jpg" class="gallery_img" alt="Dunes"></a>  
+      
+    <!--Photo 9: Picture of Countryside Lane -->
+    <a href="photos/09.jpg" data-caption="We enjoyed a quiet stroll down this countryside lane.">
+      <img src="photos/thumbnails/09.jpg" class="gallery_img" alt="Countryside Lane"></a> 
+      
+    <!--Photo 10: Picture of Sunset -->
+    <a href="photos/10.jpg" data-caption="Sunset at the coast! The sky turned a lovely shade of orange.">
+      <img src="photos/thumbnails/10.jpg" class="gallery_img" alt="Sunset"></a>
+      
+    <!--Photo 11: Picture of Cave -->
+    <a href="photos/11.jpg" data-caption="I did a tour of a cave today and the view of the landscape below was breathtaking.">
+      <img src="photos/thumbnails/11.jpg" class="gallery_img" alt="Cave"></a>
+      
+    <!--Photo 12: Picture of Bluebells -->
+    <a href="photos/12.jpg" data-caption="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+      <img src="photos/thumbnails/12.jpg" class="gallery_img" alt="Bluebells"></a>
     </div>
     
 </body>

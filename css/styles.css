@@ -1,0 +1,53 @@
+/* ===================================== 
+   Search Box Styles
+======================================== */
+
+form {
+  background-color: #fff;
+  width: 300px;
+  height: 44px;
+  border: solid 2px lightgrey;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-right: 5px;
+}
+
+.button {
+  border-radius: 0px;
+  width: 65px;
+}
+
+input {
+  all: unset;
+  font: 16px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+
+/* ===================================== 
+   Grid Layout
+======================================== */
+
+.gallery {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 20vw);
+  grid-gap: 15px;
+}
+
+.gallery_img {
+  width: 100%;
+  height: 100%;
+  /* So the images can fill the H & W of it's box. Maintaining aspect ratio. */
+  object-fit: cover;
+}
+

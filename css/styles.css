@@ -22,7 +22,7 @@ form {
 }
 
 input {
-  all: unset;
+  all: initial;
   font: 16px system-ui;
   color: black;
   height: 100%;
@@ -50,4 +50,3 @@ input {
   /* So the images can fill the H & W of it's box. Maintaining aspect ratio. */
   object-fit: cover;
 }
-
